@@ -1,4 +1,4 @@
-﻿namespace SistemaAtraccion
+namespace SistemaAtraccion
 {
     public class Persona
     {
@@ -6,6 +6,7 @@
         public int Turno { get; set; }
         public string Nombre { get; set; }
         public int Edad { get; set; }
+        public int AsientoAsignado { get; set; } = 0;
 
         // Constructor
         public Persona(int turno, string nombre, int edad)
